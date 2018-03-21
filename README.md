@@ -1,3 +1,12 @@
-JS - podstawy lekcja 9
+9.2 Merging arrays in console
 
-https://sophiegosia.github.io/js-2/
+How to run this project:
+
+$ npm install
+
+$ npm run init-project 
+$ npm run build
+$ npm run watch
+$ npm run test 
+
+https://codepen.io/sophie_gosia/pen/YaVpQG?editors=1111
