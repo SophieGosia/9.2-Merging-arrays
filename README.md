@@ -2,8 +2,6 @@
 
 How to run this project:
 
-$ npm install
-
 $ npm run init-project 
 $ npm run build
 $ npm run watch
