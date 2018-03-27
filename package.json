@@ -1,5 +1,5 @@
 {
-  "name": "NPM-1",
+  "name": "Arrays",
   "version": "1.0.0",
   "description": "https://sophiegosia.github.io/8.3/",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "watch:sassprefixer": "onchange sass/*.scss -- npm-run-all sassprefixer:*",
     "sassprefixer:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "sassprefixer:autoprefixer": "autoprefixer-cli css/style.css",
-    "watch:browsersync": "browser-sync start --server --files 'css/*.css' '*.html'"
+    "watch:browsersync": "node_modules/.bin/browser-sync start --server --files 'css/*.css' '*.html'"
   },
   "keywords": [],
   "author": "",
