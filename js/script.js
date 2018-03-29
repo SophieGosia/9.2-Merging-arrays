@@ -8,9 +8,10 @@ var allNames = femaleNames.concat(maleNames);
 console.log(allNames);
 
 var newName = 'Adam';
+var oneMoreName;
 
-if(allNames.indexOf(newName) === -1) {
-	var oneMoreName = allNames.push(newName);
+if (allNames.indexOf(newName) === -1) {
+    oneMoreName = allNames.push(newName);
 }
 
 console.log(oneMoreName);
